@@ -4,7 +4,6 @@ import classNames from 'classnames';
 function Home() {
   return (
     <div className={classNames('Home', 'foo', 'bar')} >
-      <h1>Welcome to Meteor!</h1>
 
       <p> This repo aims to get you up and running with sane
         defauts. Most of the content is in the 'both' folder so
