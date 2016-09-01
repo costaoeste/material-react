@@ -1,9 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
+import Header from '../components/Header.jsx';
 
 function Home() {
   return (
     <div className={classNames('Home', 'foo', 'bar')} >
+    <Header />
 
       <p> This repo aims to get you up and running with sane
         defauts. Most of the content is in the 'both' folder so
